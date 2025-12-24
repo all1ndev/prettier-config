@@ -1,6 +1,6 @@
 {
 	"name": "@all1ndev/prettier-config",
-	"version": "1.1.0",
+	"version": "2.0.0",
 	"description": "@all1ndev prettier config",
 	"main": "index.json",
 	"scripts": {
