@@ -1,13 +1,13 @@
-# `@allindevelopers/prettier-config`
+# `@all1ndev/prettier-config`
 
-[@allindevelopers](https://github.com/allindevelopers) prettier config
+[@all1ndev](https://github.com/all1ndev) prettier config
 
 ## Usage
 
 **Install**:
 
 ```shell
-npm install --dev @allindevelopers/prettier-config
+npm install --dev @all1ndev/prettier-config
 ```
 
 - **Add to `package.json`**:
@@ -15,21 +15,21 @@ npm install --dev @allindevelopers/prettier-config
 ```jsonc
 {
 	// ...
-	"prettier": "@allindevelopers/prettier-config"
+	"prettier": "@all1ndev/prettier-config",
 }
 ```
 
 - **Add to `.prettierrc.json`**:
 
 ```json
-"@allindevelopers/prettier-config"
+"@all1ndev/prettier-config"
 ```
 
 - **Add to `.prettierrc.js`**:
 
 ```js
 module.exports = {
-	...require("@allindevelopers/prettier-config"),
+	...require("@all1ndev/prettier-config"),
 	// ...
 };
 ```

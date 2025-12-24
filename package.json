@@ -1,7 +1,7 @@
 {
-	"name": "@allindevelopers/prettier-config",
+	"name": "@all1ndev/prettier-config",
 	"version": "1.1.0",
-	"description": "@allindevelopers and @iamandrewluca personal prettier config",
+	"description": "@all1ndev prettier config",
 	"main": "index.json",
 	"scripts": {
 		"test": "echo \"There are no tests\" && exit 0",
@@ -9,20 +9,26 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/allindevelopers/prettier-config.git"
+		"url": "git+https://github.com/all1ndev/prettier-config.git"
 	},
 	"keywords": [
 		"prettier",
 		"config",
 		"prettier-config"
 	],
-	"author": "Andrew Luca (https://iamandrewluca.com)",
+	"author": "Andrei L (https://all1n.dev)",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/allindevelopers/prettier-config/issues"
+		"url": "https://github.com/all1ndev/prettier-config/issues"
 	},
-	"homepage": "https://github.com/allindevelopers/prettier-config#readme",
+	"homepage": "https://github.com/all1ndev/prettier-config#readme",
 	"publishConfig": {
 		"access": "public"
+	},
+	"devDependencies": {
+		"prettier": "^3.7.4"
+	},
+	"peerDependencies": {
+		"prettier": "^3.7.4"
 	}
 }
