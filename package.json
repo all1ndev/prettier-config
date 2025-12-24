@@ -5,7 +5,8 @@
 	"main": "index.json",
 	"scripts": {
 		"test": "echo \"There are no tests\" && exit 0",
-		"format": "npx prettier --config index.json --write '**/*.{json,md}'"
+		"format": "npx prettier --config index.json --write '**/*.{json,md}'",
+		"release": "np"
 	},
 	"repository": {
 		"type": "git",
@@ -26,6 +27,7 @@
 		"access": "public"
 	},
 	"devDependencies": {
+		"np": "^10.2.0",
 		"prettier": "^3.7.4"
 	},
 	"peerDependencies": {
